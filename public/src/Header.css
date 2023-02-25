@@ -1,0 +1,24 @@
+.camera-icon {
+    margin-left: 600px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:#747070 ;
+    border: none;
+    width: 50px;
+    cursor: pointer;  
+}
+.camera-icon:hover{
+    background-color: #373737;
+}
+.camera-icon img {
+    width: 50px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.logo img {
+    width: 50px;
+    padding: 10px;
+}

@@ -1,0 +1,28 @@
+.Container-post form{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 30px;
+    color: white;
+    background-color: #000;
+}
+label{
+    margin-bottom: 10px;
+}
+.white input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 25px;
+    background-color: white;
+    border: none;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 200px;
+    background-color: white;
+}
