@@ -11,7 +11,7 @@ function Postpage(){
     console.log(view);
     let dataform=new FormData(view);
     console.log(dataform);
-    await fetch('http://localhost:5000/createPost',{
+    await fetch('https://recipe-back.onrender.com/createPost',{
         method:'Post',
         body:dataform
     }).then(res=>res.json()).then((d)=>{

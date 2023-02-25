@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Postview=()=>{
     const[posts,setPosts]=useState([]);
     useEffect(()=>{
-        fetch("http://localhost:5000/getPost").then((res)=>res.json()).then((data)=>{
+        fetch("https://recipe-back.onrender.com/getPost").then((res)=>res.json()).then((data)=>{
             data.reverse();
              setPosts(data)
         }).catch((err)=>{

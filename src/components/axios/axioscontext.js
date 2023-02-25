@@ -8,7 +8,7 @@ export const  Provider = (props) => {
   const nav = useNavigate();
   const userSignIn = (loginData) => {
     axios
-      .post("http://localhost:5000/login", loginData)
+      .post("https://recipe-back.onrender.com/login", loginData)
       .then((res) => {
         const token = res.data.token;
         localStorage.setItem("token", token);
@@ -29,7 +29,7 @@ export const  Provider = (props) => {
     console.log(userData);
     try {
       axios
-        .post("http://localhost:5000/register", userData)
+        .post("https://recipe-back.onrender.com/register", userData)
         .then((res) => {
           console.log(res);
           nav("/");
